@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+header{
+    position: relative;
+    background-size:cover;
+    height: 160px;
+    background-color: rgb(209, 233, 101);
+    margin:auto;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 30px;
+    left: 150px;
+    background-color:black;   
+}
+
+.buscar{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+ }
+
+input.src {
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #a50559;
+    transition: all  .5s;
+}
+
+input.src{
+    width: 450px;
+    background-color: #fff;
+    border-color: #8c10b3;
+    box-shadow: 0 0 5px #6dcff680;
+}
+
+
+.redes {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: black;
+    top: 12px;
+
+}
+
+#icono1{
+    right:30px;
+}
+
+#icono2{
+    right: 71px;
+}
+
+#icono3{
+    right:120px;
+}
+
+
+#login{
+    position: absolute;
+    background-color:#838080;
+    height:50px;
+    width:50px;
+    border-radius:15px;
+    right:120px;
+    top:50px;
+}
+nav{
+    position: relative;
+    background-color: rgb(243, 241, 231);
+    margin: auto;
+    background-size:cover;
+    height: 50px;
+}
+
+section{
+    position:relative;
+    width:1000px;
+    height:400px;
+    background-color: rgb(252, 230, 202);
+    margin: auto;
+}
+
+footer{
+    position: relative;
+    width:1000px;
+    height:70px;
+    margin:auto;
+    background-color: rgb(209, 233, 101);
+}
+
